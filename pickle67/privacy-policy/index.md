@@ -1,12 +1,12 @@
 # Pickle67 Privacy Policy
 
-Last Updated: August 31, 2026
+Last Updated: September 27, 2026
 
 ## 1. Introduction
 
-This Privacy Policy explains how Pickle67 (formerly PicklePulse) collects, uses, and protects information in connection with our mobile application made available through the Google Play Store and related services.
+This Privacy Policy explains how Pickle67 collects, uses, and protects information in connection with our mobile application made available through the Google Play Store and related services.
 
-Pickle67 is a local-first Pickleball match tracking app designed to help players record and review gameplay, match stats, and session details on their device. Our application focuses on local usage and is intended to operate primarily without requiring a user account or account-based login.
+Pickle67 is a Pickleball match-tracking application designed to help players record and review gameplay, match stats, and session details. Our application offers both local-first tracking and optional cloud synchronization through secure authentication services.
 
 We are committed to protecting your privacy and being transparent about how information is handled. This policy applies to the Pickle67 application and any related services we provide in connection with it.
 
@@ -14,154 +14,92 @@ We are committed to protecting your privacy and being transparent about how info
 
 Pickle67 is a Pickleball tracking application that helps users:
 
-- Track local match activity and session details
+- Track match activity and session details
 - Record match results and game statistics
-- Manage local match history and performance information
-- Review data on-device without requiring a cloud account
+- Manage match history and performance information
+- Review data locally on-device or sync it securely to the cloud when signed in
 
-The app is designed to prioritize local operation, convenience, and user control. In many cases, data is processed and stored directly on the user’s device rather than on external servers.
+The app is designed to prioritize user control, offering flexible usage options ranging from offline guest modes to authenticated cloud backups.
 
 ## 3. Information We Collect
 
-Pickle67 does not require a mandatory user account registration in order to use the core app experience. We do not require users to create a username, email login, or account profile as a condition of use for standard functionality.
-
-The app may collect and use the following types of information, depending on how the app is used and which features are enabled:
+Pickle67 allows users to operate primarily as a guest or sign in using secure authentication providers (such as Google Sign-In). Depending on how you use the app and which features are enabled, we may collect the following types of information:
 
 ### 3.1 Information Collected Locally on Your Device
 
-Pickle67 may store match-related data locally on the device, including but not limited to:
+The app stores match-related data locally on the device, including:
 
 - Match scores and game results
 - Statistical summaries of Pickleball sessions
 - Local match history and tracking records
 - App settings and preferences
-- Device-generated usage data required to support core functionality
 
-This information is primarily used to provide local match tracking and improve the app’s performance on the device where it is used.
+### 3.2 Information Collected via Cloud Authentication & Services
 
-### 3.2 Information We Do Not Require
+If you choose to sign in with an account (such as Google Sign-In) or sync your data to the cloud, we collect and store:
 
-Pickle67 does not require users to provide:
-
-- A mandatory user account
-- A username/password for account access
-- A government-issued ID
-- Personal profile information as a condition for basic app functionality
+- Basic profile information (such as your display name, email address, and unique user identifiers) provided by the authentication provider
+- Synchronized match records, player tags, and profile metadata stored securely in our cloud database (Cloud Firestore / Firebase)
 
 ### 3.3 Device and Usage Information
 
-To support app quality, stability, and analytics, the app may collect limited technical information such as:
+To support app quality, stability, and analytics, the app may collect technical information such as:
 
-- Device model
-- Operating system version
+- Device model and operating system version
 - App version
-- Crash reports or diagnostics
-- Performance and usage metadata
-
-This information is used to diagnose issues, improve reliability, and enhance the user experience.
+- Crash reports, diagnostics, and performance metadata
 
 ## 4. How We Use Information
 
 We use the information we collect to:
 
-- Operate and improve core match tracking functionality
+- Operate, maintain, and improve core match tracking functionality
+- Synchronize match history and user statistics securely across devices when logged in
 - Personalize and stabilize the app experience
-- Diagnose technical issues and improve performance
+- Diagnose technical issues and improve reliability
 - Support basic analytics and ad-related measurement
 - Provide a safe and functional user experience
 
-We do not use the app to build a broad personal profile beyond what is necessary to provide the app’s functionality and required advertising/analytics services.
+## 5. Local-First Operation and Cloud Sync
 
-## 5. Local-First Operation
-
-Pickle67 is designed to operate primarily as a local application. Much of the user data generated by the app may remain on the device and may not be uploaded to our servers unless a user explicitly chooses a feature that requires cloud or network-based services.
-
-Because the app is built around local usage, users are encouraged to understand that local storage and local processing are central to the design of this application.
+Pickle67 supports both local-first operation and cloud backups. Data generated while playing offline or as a guest remains on the device unless an explicit account action or cloud sync is triggered. When users link their profile or sign in, relevant data is securely transmitted and stored on cloud infrastructure to enable cross-device accessibility.
 
 ## 6. Permissions
 
-Pickle67 may request specific device permissions when required for functionality. These permissions are used only for the purposes described below and are not used for unrelated access to your device.
+Pickle67 may request specific device permissions when required for functionality:
 
 ### 6.1 Bluetooth Permission (Wear OS)
 
-For Wear OS devices, Pickle67 may request Bluetooth access in order to support compatible wearable experiences and local device communication where necessary for syncing or pairing features related to app functionality.
-
-Bluetooth access is used only to enable features that require direct communication with compatible nearby devices and is not intended for unrelated tracking or background monitoring beyond the app’s stated functionality.
+For Wear OS devices, Pickle67 may request Bluetooth access to support compatible wearable experiences and local device communication for syncing or pairing features related to live match control.
 
 ### 6.2 Other Permissions
 
-Depending on app version and device capabilities, additional permissions may be requested for standard app operations, performance, notifications, or media access as needed. We will only request permissions that are reasonably necessary to provide the functionality described in this policy.
+Additional standard permissions may be requested for app operations, notifications, or performance as needed.
 
 ## 7. Google AdMob and Advertising
 
-Pickle67 may use Google AdMob to provide advertisements within the app, depending on the app version, market conditions, and configuration of the application.
+Pickle67 may use Google AdMob to provide advertisements within the app. Google AdMob may collect and use advertising-related identifiers and analytics data (such as Advertising IDs and interaction data) to serve relevant ads and measure ad performance in accordance with Google's privacy policies.
 
-Google AdMob may collect and use advertising-related identifiers and analytics data, including but not limited to:
+## 8. Data Storage, Security, and Account Deletion
 
-- Advertising ID (AAID/Google Advertising ID)
-- Device information for ad personalization and measurement
-- Interaction data related to ad delivery and performance
-- Third-party analytics data used to understand app performance and engagement
+We take reasonable technical and organizational measures to protect information processed through the app and stored in our cloud infrastructure. 
 
-This data may be used by Google and its advertising partners for purposes such as:
+**Account and Data Deletion:** Users have full control over their data. If you wish to delete your account and all associated cloud data, you can do so directly within the app by navigating to your Profile and selecting the **"Delete Account & Data"** option. This action permanently erases your profile, cloud records, and associated data from our servers and local caches.
 
-- Serving relevant advertisements
-- Measuring ad effectiveness
-- Improving ad targeting and analytics
-- Supporting aggregated reporting and campaign optimization
+## 9. Children’s Privacy
 
-Please note that AdMob is a third-party advertising and analytics provider. Their data collection is governed by their own privacy practices and policies, which may be updated separately from this policy. We encourage users to review Google’s relevant privacy documentation for additional details.
+Pickle67 is intended for users who are 13 years of age or older. We do not knowingly collect personal information from children under 13.
 
-## 8. Third-Party Services and Analytics
+## 10. Your Choices and Controls
 
-Pickle67 may engage third-party service providers, including analytics and advertising vendors, to support app functionality, diagnostics, and measurement. These providers may process certain device or app data in accordance with their own privacy policies.
+Users may control data collection and device permissions through their system settings. Authenticated users may also manage their accounts or execute complete data erasure using the in-app account deletion tool.
 
-Examples of third-party services may include advertising platforms, analytics providers, and infrastructure services used to improve app reliability and features.
+## 11. Changes to This Privacy Policy
 
-## 9. Data Storage and Security
+We may update this Privacy Policy from time to time to reflect changes in the app or legal requirements. Updated versions will be posted with a revised "Last Updated" date.
 
-We take reasonable technical and organizational measures to help protect information processed through the app. However, no method of electronic storage or transmission is completely secure.
+## 12. Contact Information
 
-Where data is stored locally on your device, the security of that data depends in part on the device’s own security settings and the user’s operating environment.
-
-## 10. Children’s Privacy
-
-Pickle67 is intended for users who are 13 years of age or older. We do not knowingly collect personal information from children under the age of 13 without verifiable parental consent, where required by applicable law.
-
-If we learn that we have inadvertently collected personal information from a child under 13, we will take reasonable steps to delete that information promptly and securely. We also expect parents and guardians to supervise their children’s use of mobile apps and to advise us if they believe their child has provided personal information through the app.
-
-## 11. Your Choices and Controls
-
-Users may control or limit certain data collection and permissions through their device settings. For example, you may manage app permissions, advertising IDs, or privacy settings directly from your device or operating system.
-
-If you no longer wish to receive personalized ads or want to restrict certain advertising identifiers, you can adjust the relevant settings on your device. We encourage users to review their device settings regularly.
-
-## 12. Data Retention
-
-We retain information only as long as necessary to provide the app’s functionality, comply with legal obligations, resolve disputes, and enforce our policies. Local app data may remain on the device until the user deletes it or removes the app, depending on the feature and platform behavior.
-
-## 13. International Data Transfer
-
-If information is processed by third-party services or infrastructure outside your country of residence, such data may be transferred and processed in other jurisdictions that may have different privacy laws. In such cases, we will use reasonable safeguards and rely on the privacy practices of third-party providers as permitted by applicable law.
-
-## 14. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time to reflect changes in the app, legal requirements, or service practices. When we make material changes, we will provide reasonable notice, such as by updating the “Last Updated” date and, where suitable, notifying users within the app or through the applicable app store listing.
-
-We reserve the right to modify, update, or introduce fees for premium features, advanced storage, or cloud services in future versions of the application, notifying users with due advance notice.
-
-Your continued use of Pickle67 after any update to this Privacy Policy indicates your acceptance of the revised terms.
-
-## 15. Contact Information
-
-If you have questions, concerns, or requests related to this Privacy Policy or the handling of your information, please contact us at:
+If you have questions or concerns related to this Privacy Policy, please contact us at:
 
 innovationhtb@gmail.com
-
-We will review your inquiry and respond as appropriate.
-
-## 16. Summary
-
-Pickle67 is a local-focused Pickleball tracking app that prioritizes on-device functionality and a streamlined user experience. While the app may use Bluetooth for Wear OS compatibility and Google AdMob for advertising and analytics, the primary design emphasizes local operation, limited account requirements, and clear user control over data and permissions.
-
-This Privacy Policy is intended to provide a transparent explanation of how information is handled and to support compliance with the expectations of users and the Google Play Store ecosystem.
